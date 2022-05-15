@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    position: relative;
+}
+
+button{
+    position: fixed;
+    top: 50px;
+    margin: 0;
+    font-size: 60px;
+}
+
+img{
+    width: 200px;
+    height: 30px;
+}
