@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SATO</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   </head>
   <body>
-    <button><img src="image/proto.png"></button>
-  
     <a-scene>
-      <a-marker type="pattern" url="image/test1.png">
-        <img src="image/proto.png">
-      </a-marker>
-      <a-entity camera></a-entity>
+      
+    
+        <a-assets>
+          <img id="sky" src="image/sky.jpg">
+        </a-assets>
+        <a-sky src="#sky"></a-sky>
+
+
     </a-scene>
-  
-  
   </body>
 </html>
-
-
