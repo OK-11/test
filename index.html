@@ -2,16 +2,17 @@
   <head>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   </head>
+
   <body>
     <a-scene>
+      <a-assets>
+        <img id="pic" src="image/proto.png">
+      </a-assets>
+
+      <a-image src="#pic" width="16" height="9"></a-image>
       
-        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-        <a-assets>
-          <img id="sky" src="image/sky.jpg">
-        </a-assets>
-        <a-sky src="#sky"></a-sky>
-
-
+      
+    
     </a-scene>
   </body>
 </html>
